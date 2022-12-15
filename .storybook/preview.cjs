@@ -2,8 +2,6 @@ import { themes } from '@storybook/theming'
 
 import '../src/styles/global.css';
 
-import { collapseTextChangeRangesAcrossMultipleVersions } from "typescript";
-
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
   controls: {
@@ -14,5 +12,5 @@ export const parameters = {
   },
   docs: {
     theme: themes.dark,
-  }
+  },
 }
